@@ -72,7 +72,7 @@ si tiene exito el initramfs se borra de la ram y carga el programa init (**/sbin
 Se encarga del montaje del sistema de ficheros raiz
 
 - Imagen disco ram inicial
-	- ![[3.png]]
+	- ![3](media/3.png)
 	- ![[3.png]]
 ## Inicio de secion en modo texto
 
@@ -87,8 +87,8 @@ El gestor de arranque es el encargado de cargar el kernel
 y tambien es el encargado de iniciar el iframfs sistema de archivos inicial basado en ram
 
 - imagen de como se 
-	- ![[4.png]]gestiona el arranque
-	- ![[4.png]]
+	- ![4](media/4.png)gestiona el arranque
+	- ![4.png](media/4.png)
 Cunado el kernel se carga en la ram inicializa y configura la memoria del equio y tambien todo el harware conectado al sistema
 
 ## **/sbin/init y Servicios**
@@ -168,7 +168,7 @@ Hay diferentes tipos de ficheros compatibles con linux
 - Linux usa / para separar rutas y no tiene letra de unidad
     
 - Jerarquia de archivos
-	- [[5.png]]
+	- ![5](media/5.png)
 	    ![[5.png]]
     
     
@@ -178,7 +178,7 @@ Hay diferentes tipos de ficheros compatibles con linux
 ## Eleccion de una distribucion linux
 
 - Distrubuciones linux
-	- [[6.png]]
+	- ![6.png](media/6.png)
 ### Preguntas que hacerte a la hora de la eleccion
 
 - ¿Cuál es la función principal del sistema (servidor o escritorio)?
@@ -196,7 +196,7 @@ Es importante hacerlo bien desde el principio por que una vez montado es dificil
 
 - Particionado de disco
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1d5206a5-6ad0-4473-af90-a63fa660c6f6/5414e674-9bb4-4967-894d-bd46c3f13325/Untitled.png)
+    ![8.png](media/8.png)
     
 
 ### Opciones de software
