@@ -3,7 +3,7 @@
 Es el procedimiento para encender linux, es todo lo que pasa desde que se ejecuta linux asta que la interfaz esta operativa.
 
 - Imagen proceso de arranque 
-	- [[1.png]]
+	- ![imagen1](media/1.png)
 - El roceso de arranque se ejecuta en cadena como vemos en la imagen de arriba y tiene varios rocesos que detallare mas abajo
 ## bios
 
@@ -26,8 +26,9 @@ El gestor de arranque es el responsable de cargar la imagen del kernel, el disco
 - GRUB (**GR**and **U**nified **B**oot loader)
 - ISOLINUX para arranque desde medios extraibles
 - DAS U-BOOT para arranques desde dispositivos integrados
-Tipos de arranques
-	[[2.png]]
+Tipos de arranque
+	![[2.png]]ues![[2.png]]
+	![2](media/2.png)
 ## cargador de arranque en accion
 
 El boot loader tiene dos etapas distintas de arranque
@@ -71,7 +72,8 @@ si tiene exito el initramfs se borra de la ram y carga el programa init (**/sbin
 Se encarga del montaje del sistema de ficheros raiz
 
 - Imagen disco ram inicial
-	- [[3.png]]
+	- ![[3.png]]
+	- ![[3.png]]
 ## Inicio de secion en modo texto
 
 init inicia varias solicitudes de secion en modo texto esto permite esciber en nombre de usuario, contraseña y la interfaz shell de comandos, si ejecutas una interfaz grafica la shell no aparecera.
@@ -84,8 +86,9 @@ El gestor de arranque es el encargado de cargar el kernel
 
 y tambien es el encargado de iniciar el iframfs sistema de archivos inicial basado en ram
 
-- imagen de como se gestiona el arranque
-	- [[4.png]]
+- imagen de como se 
+	- ![[4.png]]gestiona el arranque
+	- ![[4.png]]
 Cunado el kernel se carga en la ram inicializa y configura la memoria del equio y tambien todo el harware conectado al sistema
 
 ## **/sbin/init y Servicios**
@@ -165,7 +168,8 @@ Hay diferentes tipos de ficheros compatibles con linux
 - Linux usa / para separar rutas y no tiene letra de unidad
     
 - Jerarquia de archivos
-	    [[5.png]]
+	- [[5.png]]
+	    ![[5.png]]
     
     
 - Todos los nombres de los directorios distingen entre mayuscula y minuscula or lo que Boot y boot no son el mismo directorio

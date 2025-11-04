@@ -16,7 +16,8 @@ Se carga como uno de los poasos finales en el proceso de arranque
     - realiza un segimiento de las pantallas y carga el servidor x, gestiona los inicios de sesion grafico e inicia el entordo de escritorio adecuado
         
     - Imagen de inicio grafico
-	    - [[7.png]]
+	    - ![[7.png]]
+	    - ![[7.png]]
         
         
     
